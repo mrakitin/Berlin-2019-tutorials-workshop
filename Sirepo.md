@@ -1,21 +1,21 @@
 ## Plan for Sirepo tutorial 01/16/2019
 
-### 1. Overview of Sirepo:
+### 1. Installation using Docker:
+  - `docker pull radiasoft/sirepo:beta`
+  - `docker run -v $PWD:/sirepo -p 8000:8000 radiasoft/sirepo:beta`
+
+### 2. Installation using Vagrant/VirualBox:
+  - https://github.com/radiasoft/sirepo/wiki/Development
+
+### 3. Using a public Sirepo server:
+  - https://sirepo.com
+
+### 4. Overview of Sirepo:
+  - Browser of simulations
   - Calculation of parameters of synchrotron radiation (SR): Source page
   - Calculation of wavefront propagation: Beamline page
   - Types of simulations (single-electron fully coherent, multi-electron partially coherent)
   - Exporting/importing features
-  - Login using GitHub authentication
-
-### 2. Installation using Docker:
-  - `docker pull radiasoft/sirepo:beta`
-  - `docker run -v $PWD:/sirepo -p 8000:8000 radiasoft/sirepo:beta`
-
-### 3. Installation using Vagrant/VirualBox:
-  - https://github.com/radiasoft/sirepo/wiki/Development
-
-### 4. Using a public Sirepo server:
-  - https://sirepo.com
 
 ### 5. Examples:
   - Calculator of SR: http://localhost:8000/light#/calculator
@@ -23,7 +23,7 @@
   - Beamline examples: http://localhost:8000/light#/light-sources
 
 ### 6. Paying attention to features:
-  - Log in using GitHub auth
+  - Log in using GitHub authentication
   - Source page:
     - Parameters of the electron beam and undulator (idealized and tabulated)
     - Multi-electron spectrum flux report
@@ -32,6 +32,7 @@
   - Beamline page:
     - Optical elements: drag & drop, parameters menu and tabs
     - Propagation parameters
+    - Partially-coherent simulations
     - Automatic obtaining of the attenuation length and the refractive index decrement from http://henke.lbl.gov/optical_constants/atten2.html and http://henke.lbl.gov/optical_constants/getdb2.html (CRL, Fiber, Sample optical elements)
     - Automatic obtaining of crystal parameters from http://x-server.gmca.aps.anl.gov/x0h.html
     - Samples simulations: http://localhost:8000/srw#/beamline/BT3m60yY
