@@ -3,9 +3,11 @@
 ### 1. Installation using Docker:
   - `docker pull radiasoft/sirepo:beta`
   - `docker run -v $PWD:/sirepo -p 8000:8000 radiasoft/sirepo:beta`
+  - access it at http://localhost:8000
 
 ### 2. Installation using Vagrant/VirualBox:
   - https://github.com/radiasoft/sirepo/wiki/Development
+  - access it at http://10.10.10.10:8000
 
 ### 3. Using a public Sirepo server:
   - https://sirepo.com
