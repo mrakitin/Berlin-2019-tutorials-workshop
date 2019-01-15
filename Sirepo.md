@@ -20,9 +20,9 @@
   - Exporting/importing features
 
 ### 5. Examples:
-  - Calculator of SR: http://localhost:8000/light#/calculator
-  - Text book examples: http://localhost:8000/light#/wavefront
-  - Beamline examples: http://localhost:8000/light#/light-sources
+  - Calculator of SR: https://sirepo.com/light#/calculator
+  - Text book examples: https://sirepo.com/light#/wavefront
+  - Beamline examples: https://sirepo.com/light#/light-sources
 
 ### 6. Paying attention to features:
   - Log in using GitHub authentication
