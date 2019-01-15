@@ -34,6 +34,7 @@
   - Beamline page:
     - Optical elements: drag & drop, parameters menu and tabs
     - Propagation parameters
+    - Height profiles of optical elements
     - Partially-coherent simulations
     - Automatic obtaining of the attenuation length and the refractive index decrement from http://henke.lbl.gov/optical_constants/atten2.html and http://henke.lbl.gov/optical_constants/getdb2.html (CRL, Fiber, Sample optical elements)
     - Automatic obtaining of crystal parameters from http://x-server.gmca.aps.anl.gov/x0h.html
