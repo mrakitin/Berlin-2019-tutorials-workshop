@@ -1,11 +1,11 @@
 ## Plan for Sirepo tutorial 01/16/2019
 
-### 1. Installation using Docker:
+### 1. Installation using Docker (~5 minutes):
   - `docker pull radiasoft/sirepo:beta`
   - `docker run -v $PWD:/sirepo -p 8000:8000 radiasoft/sirepo:beta`
   - access it at http://localhost:8000
 
-### 2. Installation using Vagrant/VirualBox:
+### 2. Installation using Vagrant/VirualBox (~20 minutes):
   - https://github.com/radiasoft/sirepo/wiki/Development
   - access it at http://10.10.10.10:8000
 
@@ -38,7 +38,7 @@
     - Partially-coherent simulations
     - Automatic obtaining of the attenuation length and the refractive index decrement from http://henke.lbl.gov/optical_constants/atten2.html and http://henke.lbl.gov/optical_constants/getdb2.html (CRL, Fiber, Sample optical elements)
     - Automatic obtaining of crystal parameters from http://x-server.gmca.aps.anl.gov/x0h.html
-    - Samples simulations: http://localhost:8000/srw#/beamline/BT3m60yY
+    - Samples simulations: https://sirepo.com/srw#/simulations -> Examples -> "Sample from Image"
     - Export as zip
     - Export as a self-extracting simulation
     - Open as a new copy
