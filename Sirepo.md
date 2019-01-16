@@ -39,11 +39,13 @@
     - Automatic obtaining of the attenuation length and the refractive index decrement from http://henke.lbl.gov/optical_constants/atten2.html and http://henke.lbl.gov/optical_constants/getdb2.html (CRL, Fiber, Sample optical elements)
     - Automatic obtaining of crystal parameters from http://x-server.gmca.aps.anl.gov/x0h.html
     - Samples simulations: https://sirepo.com/srw#/simulations -> Examples -> "Sample from Image"
+  - List of simulations:
     - Export as zip
     - Export as a self-extracting simulation
     - Open as a new copy
     - Discard changes to example
-    - Documentation at Wiki https://github.com/radiasoft/sirepo/wiki
+  - Documentation:
+    - Wiki https://github.com/radiasoft/sirepo/wiki
 
 ### 7. JSR paper on Sirepo:
   - http://journals.iucr.org/s/issues/2018/06/00/il5006
