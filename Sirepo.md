@@ -25,7 +25,7 @@
   - Beamline examples: https://sirepo.com/light#/light-sources
 
 ### 6. Paying attention to features:
-  - Log in using GitHub authentication
+  - Log in using GitHub authentication (for https://sirepo.com only)
   - Source page:
     - Parameters of the electron beam and undulator (idealized and tabulated)
     - Multi-electron spectrum flux report
