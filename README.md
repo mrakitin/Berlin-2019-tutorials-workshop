@@ -1,7 +1,9 @@
-## Tutorial and talk materials for the "Automation in Beamline Control and Data Acquisition"
+## Tutorial and talk materials for the "Automation in Beamline Control and Data Acquisition" workshop
 
-**Where:** Berlin, Germany
-**When:** January 16-18, 2019
+|   |   |
+|---|---|
+| **Where:** | Berlin, Germany |
+| **When:** | January 16-18, 2019 |
 
 ## Tutorials on 01/16/2019 (Wed)
 
