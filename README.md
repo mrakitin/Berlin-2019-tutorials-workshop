@@ -19,3 +19,6 @@
 - [Talk files](talk/) (.pptx and .pdf)
 - [Demo](demo/LaptopCam.ipynb)
 
+## Poster session
+
+- [Poster](poster/Berlin-2019_mrakitin.pdf)
